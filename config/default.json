@@ -1,0 +1,25 @@
+{
+  "database": {
+    "host": "127.0.0.1",
+    "user": "root",
+    "password": "",
+    "connectionLimit": 50,
+    "name": "otrium"
+  },
+  "api": {
+    "guestActions": [
+      {
+        "url": "/v1/user/registration",
+        "method": "POST"
+      },
+      {
+        "url": "/v1/user/login",
+        "method": "POST"
+      }
+    ]
+  },
+  "Access_Token": "4a02fc688fef7ec0052f27bc4844df6e569c1246853bec8b937c0560c55eaedeafd77e91ab8c3128f683898382b7a28e1ca8cb20f901cccbde87958a841ac7f0",
+  "Refresh_Token": "de5493dca9a951a88409ca1ba0af2bf5f5508cf837d1c303f74a10249a9bbb955942887b21b5bb34457b37de34cc3227c84b59594356d798f3084c20c2425788",
+  "AccessTokenExpirationTime": "1d",
+  "RefreshTokenExpirationTime": "30d"
+}
